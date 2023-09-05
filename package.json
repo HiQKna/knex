@@ -1,7 +1,7 @@
 {
-  "name": "knex",
+  "name": "knex_release",
   "version": "2.5.1",
-  "description": "A batteries-included SQL query & schema builder for PostgresSQL, MySQL, CockroachDB, MSSQL and SQLite3",
+  "description": "A batteries-included SQL query & schema builder for PostgresSQL, MySQL, CockroachDB, MSSQL and SQLite3 uses tarn_release which is patched to free connection on release",
   "main": "knex",
   "types": "types/index.d.ts",
   "engines": {
@@ -75,7 +75,7 @@
     "pg-connection-string": "2.6.1",
     "rechoir": "^0.8.0",
     "resolve-from": "^5.0.0",
-    "tarn": "^3.0.2",
+    "tarn": "npm:tarn_release@^3.0.2",
     "tildify": "2.0.0"
   },
   "peerDependenciesMeta": {
@@ -155,7 +155,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/knex/knex.git"
+    "url": "https://github.com/HiQKna/knex"
   },
   "homepage": "https://knex.github.io/documentation/",
   "keywords": [
